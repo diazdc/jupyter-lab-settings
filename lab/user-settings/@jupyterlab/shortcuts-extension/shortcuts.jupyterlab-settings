@@ -1,0 +1,25 @@
+{
+    shortcuts:[   
+        {
+        "command": "notebook:run-cell-and-select-next",
+            "keys": [
+                "Shift Space"
+            ],
+        "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+        {
+            "command": "runmenu:run",
+            "keys": [
+                "Shift Space"
+            ],
+            "selector": "[data-jp-code-runner]"
+        },
+        {
+                "command": "console:run-forced",
+                "keys": [
+                    "Shift Space"
+                ],
+                "selector": ".jp-CodeConsole[data-jp-interaction-mode='notebook'] .jp-CodeConsole-promptCell"
+        },
+    ] 
+}

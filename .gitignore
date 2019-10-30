@@ -1,0 +1,6 @@
+/*
+!.gitignore
+!jupyter_notebook_config.py
+!lab/
+lab/*
+!lab/user-settings
